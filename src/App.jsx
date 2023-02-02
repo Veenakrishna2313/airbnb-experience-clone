@@ -13,15 +13,16 @@ function App() {
 
   
  return(
-  <div>
+  <div className='main-container'>
     <Navbar/>
-    <Hero/>
-    <section className='card-list'>
+    <div className='content-container'>
+      <Hero/>
+       <section className='card-list'>
       {cards}
     </section>
     
-   
-   
+    </div>
+    
   </div>
  ) 
   

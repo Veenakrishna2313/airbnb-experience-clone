@@ -7,7 +7,7 @@ export default [
     price: 136,
     coverImg: "katie-zaferes.png",
     stats: {
-      rating: 5.0,
+      rating: "5.0",
       reviewCount: 6,
     },
     location: "Online",
@@ -21,7 +21,7 @@ export default [
     price: 125,
     coverImg: "wedding-photography.png",
     stats: {
-      rating: 5.0,
+      rating: "5.0",
       reviewCount: 30,
     },
     location: "Online",
@@ -35,11 +35,25 @@ export default [
     price: 50,
     coverImg: "mountain-bike.png",
     stats: {
-      rating: 4.8,
+      rating: "4.8",
       reviewCount: 2,
     },
     location: "Norway",
     openSpots: 3,
   },
-  
+
+  {
+    id: 4,
+    title: "Pike Place Market Tour",
+    description:
+      "Pike Place Market is Seattle's original farmers market and the center of locally sourced, artisan and specialty foods. Visit today",
+    price: 70,
+    coverImg: "pike-place.jpg",
+    stats: {
+      rating: "4.9",
+      reviewCount: 10,
+    },
+    location: "USA",
+    openSpots: 3,
+  },
 ];
