@@ -85,6 +85,8 @@ body {
   display: flex;
   flex-direction: column;
   flex: 0 0 auto;
+  margin-right: 1rem;
+  
 }
 
 
@@ -94,10 +96,7 @@ body {
   margin-bottom: 9px;
 }
 
-.card-description{
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
+
 
 .star-image{
   width:14px;
@@ -130,10 +129,13 @@ color: #918E9B
 .card-list{
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  flex-wrap:wrap;
+  overflow-x: scroll;
+  
 }
 
+.card-list::-webkit-scrollbar {
+  display:none;
+}
 @media screen and (max-width: 450px) {
   .card-list {
     flex-direction: column;

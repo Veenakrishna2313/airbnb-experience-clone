@@ -56,4 +56,18 @@ export default [
     location: "USA",
     openSpots: 3,
   },
+  {
+    id: 5,
+    title: "Interior Design Master Class",
+    description:
+      "Pike Place Market is Seattle's original farmers market and the center of locally sourced, artisan and specialty foods. Visit today",
+    price: 500,
+    coverImg: "fluted-reception-desk.jpg",
+    stats: {
+      rating: "4.9",
+      reviewCount: 10,
+    },
+    location: "Online",
+    openSpots: 3,
+  },
 ];
